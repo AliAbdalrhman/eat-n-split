@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-const initialFriends = [
+export const initialFriends = [
   {
     id: 118836,
     name: "Clark",
@@ -21,8 +21,7 @@ const initialFriends = [
   },
 ];
 
-export default function FriendsList() {
-  const friends = initialFriends;
+export default function FriendsList({ friends }) {
   return (
     <ul>
       {friends.map((friend) => (
