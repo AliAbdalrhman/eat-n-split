@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function FormSplitBill() {
   return (
     <form className="form-split-bill">
-      <h2>Split a bill wit X</h2>
+      <h2>Split a bill with X</h2>
 
       <label>💰Bill Value</label>
       <input type="text" />
